@@ -1,0 +1,173 @@
+#debugPanel {
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 	 1s;
+	-ms-transition-duration: 	 1s;
+	-o-transition-duration: 	 1s;
+	transition-duration: 		 1s;
+	
+	padding: 	5px;
+	margin-top: 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: 	2px solid #A55;
+	height: 	90%;
+	max-height: 95%;
+	min-height: 200px;
+	width: 		30%;
+	min-width: 	150px;
+	position: 	fixed;
+	right: 		0;
+	top: 		0;
+	overflow: 	auto;
+}
+
+#debugPanel:hover {
+	background: rgba(0, 0, 0, 1);
+}
+
+#debugPanel > input[type="button"] {
+	border: 	   1px solid #AAA;
+	border-radius: 5px;
+	background:    #DDD;
+	margin-right:  3px;
+	cursor:		   pointer;
+	padding:	   5px;
+	font-size:	   16px;
+}
+
+#debugPanel > input[type="button"]:hover {
+	background: #BBB;
+}
+
+.popDebug {
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 	 1s;
+	-ms-transition-duration: 	 1s;
+	-o-transition-duration: 	 1s;
+	transition-duration: 		 1s;
+	
+	padding: 	5px;
+	margin-top: 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: 	2px solid #A55;
+	width:		50%;
+	min-width:	150px;
+	max-height: 95%;
+	right:		15%;
+	top:		5px;
+	overflow:	auto;
+	position:	fixed;
+}
+
+.popDebug:hover {
+	background: rgba(0, 0, 0, 1);
+}
+
+.objDebug {
+	color:   #33D;
+	display: inline-block;
+	cursor:  pointer;
+}
+
+.txtDebug {
+	width:    95%;
+	height:   200px;
+	border:   1px solid #D00;
+	padding:  5px;
+	overflow: auto;
+}
+
+.txtDebug > *{
+	margin:  0px;
+	padding: 2px;
+}
+
+.conError {
+	color: 		 #E33;
+	font-weight: 900;
+	background:	 #ECC;
+}
+
+.conLog {
+	color: 		 #555;
+	background:	 #EEE;
+	font-weight: 900;
+}
+
+.conWarn {
+	color: 		 #FF6;
+	background:  #CC7;
+	font-weight: 900;
+}
+
+.conInput {
+	color:		 #000;
+	background:  #EEE;
+	
+}
+
+.inputDebug {
+	width: 		80%;
+	background: #555;
+	border: 	1px solid #D00;
+	color: 		#DDD;
+	font-size:	16px;
+}
+
+.btInput {
+	border: 	   1px solid #AAA;
+	border-radius: 5px;
+	background:    #DDD;
+	padding:	   3px;
+	cursor:		   pointer;
+}
+
+.btEnt {
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 	 1s;
+	-ms-transition-duration: 	 1s;
+	-o-transition-duration: 	 1s;
+	transition-duration: 		 1s;
+	
+	width: 	 	   95%;
+	padding: 	   5px;
+	border:	 	   0px;
+	background:    #EEE;
+	cursor:		   pointer;
+	border-bottom: 1px solid #000;
+}
+
+.btEnt:hover {
+	background: #AAA;
+}
+
+.btEnt > b {
+	font-size: 18px;
+}
+
+.btClose {
+	font-size:     26px;
+	color:	       #D00;
+	right:	       5px;
+	top:	   	   2px;
+	position:      absolute;
+	background:    #777;
+	border-radius: 5px;
+	cursor:		   pointer;
+	padding:	   3px;
+}
+
+.h3Debug {
+	text-align: center!important;
+	color:		#CCC;
+	margin:		5px;
+}
+
+.pDebug {
+	margin-top:    auto;
+	margin-bottom: 0px;
+	color: 		   #ACC;
+}
+
+.pDebug > span {
+	color: #CAA;
+}
